@@ -3,7 +3,7 @@ package Singleton;
 public class SigletonlLazyHolder {
 
   private static class Holder {
-    public static SigletonlLazyHolder instancia;
+    public static SigletonlLazyHolder instancia = new SigletonlLazyHolder();
   }
 
   private SigletonlLazyHolder() {
